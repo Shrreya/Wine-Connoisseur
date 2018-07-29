@@ -1,0 +1,20 @@
+{
+  "name": "backend",
+  "version": "1.0.0",
+  "description": "Parse Server for Wine Connoisseur Backend",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js"
+  },
+  "author": "shrreya",
+  "license": "ISC",
+  "engines": {
+    "node": "10.3.0"
+  },
+  "dependencies": {
+    "dotenv": "^6.0.0",
+    "express": "^4.16.3",
+    "parse-dashboard": "^1.2.0",
+    "parse-server": "^2.8.2"
+  }
+}
