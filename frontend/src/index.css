@@ -1,0 +1,31 @@
+body {
+  margin: 0;
+  padding: 0;
+  font-family: sans-serif;
+  background-color: #FFCDD2;
+}
+
+.App {
+  text-align: center;
+}
+
+.loading-animation {
+  margin-top: 100px;
+}
+
+.wine-list {
+  display: inline;
+}
+
+.wine-card {
+  padding: 10px;
+}
+
+.info-list {
+  display: inline-flex;
+}
+
+.info {
+  padding-left: 20px;
+  padding-right: 20px;
+}
