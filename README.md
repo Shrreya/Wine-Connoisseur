@@ -22,6 +22,7 @@ A full stack web app for listing different wines.
 * A search text field allows user to search/filter wines by variety or province. Filteration occurs in real time as search query is typed.
 * Logger middleware consoles every dispatched action & corresponding state for easy debugging. This is visible in the browser console.
 * If client fails to communicate with server to fetch data, alert message will be displayed on browser.
+* App design has a red hue to reflect the colour of wine.
 
 ## Tested on
 
