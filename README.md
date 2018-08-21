@@ -30,10 +30,11 @@ A coding challenge on [HackerEarth](https://www.hackerearth.com/challenges/) : F
 * frontend/ - source code for frontend
 * data_dump.agz - mongodump archive
 
-### Environment variables required
+### Environment variables
 * backend - MONGODB_URI, APP_ID, MASTER_KEY, SERVER_URL, APP_NAME, USER_NAME, PASSWORD
-* frontend - REACT_APP_BACKEND_APP_ID, REACT_APP_SERVER_URL </br>
-Can be provided through the terminal or a .env file in the respective root directories
+* frontend - REACT_APP_BACKEND_APP_ID, REACT_APP_SERVER_URL
+
+(Can be provided through the terminal or a .env file in the respective root directories)
 
 ## Requirements
 
