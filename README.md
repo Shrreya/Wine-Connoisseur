@@ -1,6 +1,6 @@
 # Wine Connoisseur
 
-A full stack web app for listing different wines.
+A coding challenge on [HackerEarth](https://www.hackerearth.com/challenges/) : Full stack web app for listing different wines.
 
 ## MERN stack used
 
@@ -8,7 +8,7 @@ A full stack web app for listing different wines.
 * Backend - Node JS, Express JS, Parse Server, Parse Dashboard
 * Database - MongoDB
 
-## Features implemented
+## Features implemented during challenge
 
 * Parse Server based backend hosting complete wine data.
 * Wine data fetched using Parse SDK API calls.
@@ -24,18 +24,16 @@ A full stack web app for listing different wines.
 * If client fails to communicate with server to fetch data, alert message will be displayed on browser.
 * App design has a red hue to reflect the colour of wine.
 
-## Tested on
-
-* Macbook Pro : macOS 10.13.4 Chrome & Safari
-* Moto G5S Plus : Android 7.1.1 Chrome
-
 ## Project contents
 
 * backend/ - source code for backend
 * frontend/ - source code for frontend
 * data_dump.agz - mongodump archive
 
-( Please note both backend & frontend source directories have their respective .env files with required environment variables )
+### Environment variables required
+* backend - MONGODB_URI, APP_ID, MASTER_KEY, SERVER_URL, APP_NAME, USER_NAME, PASSWORD
+* frontend - REACT_APP_BACKEND_APP_ID, REACT_APP_SERVER_URL </br>
+Can be provided through the terminal or a .env file in the respective root directories
 
 ## Requirements
 
@@ -55,4 +53,13 @@ A full stack web app for listing different wines.
 * Once backend is running successfully, open a new terminal and cd into frontend directory.
 * Run command `yarn install` to install required packages & dependencies.
 * Run command `yarn start` to start frontend client on local machine.
-* Client will be available at http://localhost:3000/
+* The app will be available at http://localhost:3000/
+
+## Preview
+
+1. **Backend Dashboard**
+<img src="https://github.com/Shrreya/Wine-Connoisseur/blob/master/screenshots/backend-dashboard.png"/>
+
+2. **App**
+<img src="https://github.com/Shrreya/Wine-Connoisseur/blob/master/screenshots/wines-loading.png"/>
+<img src="https://github.com/Shrreya/Wine-Connoisseur/blob/master/screenshots/wines.png"/>
